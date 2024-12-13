@@ -1,3 +1,10 @@
+'use client';
+import LoginForm from './LoginForm';
+
 export default function LoginPage() {
-  return <div>login page</div>;
+  return (
+    <div className='flex items-center justify-center vertical-center'>
+      <LoginForm />
+    </div>
+  );
 }
